@@ -2,6 +2,7 @@ package lang.immutable.address;
 
 public class Address {
     private String value;
+
     public Address(String value) {
         this.value = value;
     }

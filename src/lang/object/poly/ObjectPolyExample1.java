@@ -2,8 +2,11 @@ package lang.object.poly;
 
 public class ObjectPolyExample1 {
     public static void main(String[] args) {
-        Dog dog = new Dog();
-        Car car = new Car();
+        // Object는 모돈 타입의 부모이며, 부모는 자식을 담을 수 있으므로 아래 코드는 같다.
+        Object dog = new Dog();
+        Object car = new Car();
+//        Dog dog = new Dog();
+//        Car car = new Car();
 
         action(dog);
         action(car);
